@@ -9,7 +9,7 @@
    mvn clean test -Dmaven.test.failure.ignore=true <br>
    У вас "упадет" только один тест при таком запуске. <br>
   #### Для просмотра трассировки: <br>
-    mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="show-trace trace.zip"<br>
+    mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="show-trace trace.zip"
 
 #### 3. Enjoy!<br>
    **PS.** У вас должен быть локально установлен Maven и JDK 17.<br>
